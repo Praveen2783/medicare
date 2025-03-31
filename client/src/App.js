@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import firebase from "./firebase";
 import { AuthProvider } from "./contexts/AuthContext";
 import { CssBaseline } from "@mui/material";
